@@ -1,5 +1,4 @@
-@starrtuml
-start
+
 
 :体力 = 10;
 
