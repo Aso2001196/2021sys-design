@@ -10,8 +10,7 @@ alt 登録成功
 else 登録失敗
  Webシステム -> ユーザー : エラーを表示
  end
-end
-
+ 
 @startuml
  ユーザー -> Webシステム :ログイン
 Webシステム -> DBシステム :ログイン
