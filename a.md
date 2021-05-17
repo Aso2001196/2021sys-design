@@ -23,7 +23,6 @@ alt ログイン成功
 else 登録失敗
  Webシステム -> ユーザー : 会員登録を進める
  end
-end
 
 @enduml
 ```
