@@ -16,3 +16,15 @@
 |lite_code|int(11)||○||
 |price|int(11)||○||
 |num|int(11)||○||
+
+### m_customers
+|属性名|型|PK|NN|FK|
+|-------|-------|---|---|---|
+|customer_code|varchar(50)|○|○||
+|pass|varchar(50)|○|○|○|
+|name|varchar(20)||○||
+|address|varchar(100)||○||
+|tel|varchar(20)||○||
+|mail|varchar(100)||○||
+|del_flag|int(11)||||
+|reg_date|date||○||
