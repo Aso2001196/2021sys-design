@@ -21,14 +21,14 @@
 |価格|price|int(11)||○||
 |数量|num|int(11)||○||
 
-### m_customers
-|属性名|型|PK|NN|FK|
-|-------|-------|---|---|---|
-|customer_code|varchar(50)|○|○||
-|pass|varchar(50)|○|○|○|
-|name|varchar(20)||○||
-|address|varchar(100)||○||
-|tel|varchar(20)||○||
-|mail|varchar(100)||○||
-|del_flag|int(11)||||
-|reg_date|date||○||
+### 顧客マスタ (m_customers)
+|和名|属性名|型|PK|NN|FK|
+|---|-------|-------|---|---|---|
+|顧客コード|customer_code|varchar(50)|○|○||
+|パスワード|pass|varchar(50)|○|○|○|
+|氏名|name|varchar(20)||○||
+|住所|address|varchar(100)||○||
+|電話番号|tel|varchar(20)||○||
+|メールアドレス|mail|varchar(100)||○||
+|削除フラグ|del_flag|int(11)||||
+|登録日|reg_date|date||○||
