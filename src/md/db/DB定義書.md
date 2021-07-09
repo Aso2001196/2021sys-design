@@ -39,3 +39,15 @@
 |カテゴリID|category_id|int(50)|○|○||
 |氏名|name|varchar(20)||○||
 |登録日|reg_date|date||○||
+
+### 商品マスタ (m_items)
+|和名|属性名|型|PK|NN|FK|
+|---|-------|-------|---|---|---|
+|商品コード|lite_code|int(11)|○|○||
+|商品名|item_code|varchar(50)||○||
+|価格|price|int(11)||○||
+|カテゴリID|category_id|int(50)|○|○||
+|画像ファイル名|image|varchar(200)||○||
+|商品詳細説明|detail|varchar(500)||||
+|削除フラグ|del_flag|int(11)||||
+|登録日|reg_date|date||○||
