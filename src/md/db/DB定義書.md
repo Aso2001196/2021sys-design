@@ -4,22 +4,22 @@
 
 ## データベース詳細
 
-### d_purchase
-|属性名|型|PK|NN|FK|
-|-------|-------|---|---|---|
-|order_id|bigint(20)|○|○||
-|customer_code|varchar(50)||○||
-|purchase_date|date||○||
-|total_price|int(11)||○||
+### 購入テーブル　(d_purchase)
+|和名|属性名|型|PK|NN|FK|
+|---|-------|-------|---|---|---|
+|オーダーID|order_id|bigint(20)|○|○||
+|購入コード|customer_code|varchar(50)||○||
+|購入日|purchase_date|date||○||
+|総額|total_price|int(11)||○||
 
-### d_purchase_detail
-|属性名|型|PK|NN|FK|
-|-------|-------|---|---|---|
-|detail_id|bigint(20)|○|○||
-|order_id|bigint(20)|○|○|○|
-|lite_code|int(11)||○||
-|price|int(11)||○||
-|num|int(11)||○||
+### 購入詳細テーブル (d_purchase_detail)
+|和名|属性名|型|PK|NN|FK|
+|---|-------|-------|---|---|---|
+|オーダー詳細ID|detail_id|bigint(20)|○|○||
+|オーダーID|order_id|bigint(20)|○|○|○|
+|商品コード|lite_code|int(11)||○||
+|価格|price|int(11)||○||
+|数量|num|int(11)||○||
 
 ### m_customers
 |属性名|型|PK|NN|FK|
@@ -32,4 +32,3 @@
 |mail|varchar(100)||○||
 |del_flag|int(11)||||
 |reg_date|date||○||
-
