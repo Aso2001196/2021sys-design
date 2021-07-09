@@ -1,6 +1,6 @@
 # DB定義書
 ## ER図
-[ER図はこちら](https://github.com/Aso2001196/2021sys-design/blob/main/ER.all.md.png"ER図はこちら")
+[ER図はこちら](https://github.com/Aso2001196/2021sys-design/blob/main/ER.all.md.png "ER図はこちら")
 ## データベース詳細
 
 ### 購入テーブル　(d_purchase)
