@@ -2,8 +2,7 @@
 @startuml
 entities:
 幽々子:
-  columns:
-  
+  columns
 relations:
 幽々子}..|| Entity0
 Entity03 }o..o| Entity04
