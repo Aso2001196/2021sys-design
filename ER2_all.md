@@ -1,3 +1,4 @@
+```puml
 @startuml
 
 erDiagram
