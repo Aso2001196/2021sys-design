@@ -12,7 +12,12 @@ entity "顧客マスタ" {
     reg_date
 }
 
-entity "entity2" {
+entity "購入テーブル" {
+    + odrer_id [PK]
+    ==
+    customer_code [FK]
+    purchase_date
+    total_price
 }
 
 entity "entity3" {
