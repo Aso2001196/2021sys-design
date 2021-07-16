@@ -23,12 +23,32 @@ entity "購入テーブル" {
 entity "購入詳細テーブル" {
     + odrer_id [PK]
     + detail_id [PK]
+    ==
+    item_code [FK]
+    price
+    num
 }
 
-entity "entity4" {
+entity "商品マスタ" {
+    + item_code [PK]
+    ==
+    item_name
+    price
+    category_id [FK]
+    image
+    detail
+    del_flag
+    reg_date
 }
 
-顧客マスタ --{ entity3
-顧客マスタ }--{ entity4
+entity "カテゴリマスタ" {
+    + category_id [PK]
+    ==
+    name  
+    reg_date
+}
+
+顧客マスタ --{ 購入詳細テーブル
+顧客マスタ }--{ 商品マスタ
 @enduml
 ```
