@@ -1,6 +1,5 @@
 ```
-@startuml 
-samplediagram
+@startuml samplediagram
 title Sample ERDiagram
 entity "entity1" {
     + id [PK]
