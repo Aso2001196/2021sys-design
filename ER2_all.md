@@ -1,3 +1,5 @@
+@startuml
+
 erDiagram
 
 user ||--o{ post : owns
@@ -24,3 +26,6 @@ updoot {
   number postId
   number value
 }
+
+@enduml
+```
