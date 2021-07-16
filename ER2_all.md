@@ -19,9 +19,6 @@ entity "entity3" {
 entity "entity4" {
 }
 
-
-entity1} o-- entity2
-
 entity1 --{ entity3
 entity1 }--{ entity4
 @enduml
