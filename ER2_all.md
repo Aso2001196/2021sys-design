@@ -1,13 +1,26 @@
-```startuml
-@startuml
-entities:
-幽々子:
-  columns:
-  
-relations:
-- 幽々子 -- Entity0
-Entity03 }o..o| Entity04
-Entity05 ||--o{ Entity06
-Entity07 |o--|| Entity08
-@enduml
-```
+erDiagram
+
+user ||--o{ post : owns
+post ||--o{ updoot : has
+user }|--o{ updoot : does
+
+user {
+  number id
+  string username
+  string email
+  string password
+}
+
+post {
+  number id
+  string title
+  string text
+  number points
+  number voteStatus
+}
+
+updoot {
+  number userId
+  number postId
+  number value
+}
