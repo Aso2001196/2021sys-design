@@ -1,6 +1,6 @@
 ```startuml
 @startuml
-}|..|| Entity0
+お}|..|| Entity0
 Entity03 }o..o| Entity04
 Entity05 ||--o{ Entity06
 Entity07 |o--|| Entity08
