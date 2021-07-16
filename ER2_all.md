@@ -19,7 +19,7 @@ entity "entity3" {
 entity "entity4" {
 }
 
-entity1 --{ entity3
-entity1 }--{ entity4
+顧客マスタ --{ entity3
+顧客マスタ }--{ entity4
 @enduml
 ```
