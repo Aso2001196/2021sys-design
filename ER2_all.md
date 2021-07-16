@@ -1,8 +1,8 @@
 ```startuml
 @startuml
-おおおお}..|| Entity0
+おおおお　#ee}..|| Entity0
 Entity03 }o..o| Entity04
 Entity05 ||--o{ Entity06
-Entity07 |o--|うう| Entity08
+Entity07 |o--|| Entity08
 @enduml
 ```
