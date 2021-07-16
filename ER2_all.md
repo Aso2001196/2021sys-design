@@ -3,8 +3,6 @@
 entities:
 幽々子:
   columns:
-  - 妖夢
-  - 優曇華
   
 relations:
 幽々子}..|| Entity0
