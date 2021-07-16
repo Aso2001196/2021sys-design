@@ -20,7 +20,9 @@ entity "購入テーブル" {
     total_price
 }
 
-entity "entity3" {
+entity "購入詳細テーブル" {
+    + odrer_id [PK]
+    + detail_id [PK]
 }
 
 entity "entity4" {
