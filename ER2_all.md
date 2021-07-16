@@ -20,7 +20,7 @@ entity "entity4" {
 }
 
 
-entity1} 0-- entity2
+entity1} o-- entity2
 
 entity1 --{ entity3
 entity1 }--{ entity4
