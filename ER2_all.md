@@ -1,8 +1,8 @@
 ```
 @startuml samplediagram
 title Sample ERDiagram
-entity "entity1" {
-    + id [PK]
+entity "顧客マスタ" {
+    + customer_code [PK]
     ==
     # entity2_id [FK(entity2,id)]
     # entity4_id [FK(entity4,id)]
